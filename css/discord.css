@@ -1,0 +1,57 @@
+/* discord */
+
+#joinDiscord{
+    width: 90em;
+    height: 10em;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    transform: rotateX(7deg) rotateY(15deg) scale(1.1);
+    box-shadow: 0px 10px 50px rgb(225, 0, 255);
+}
+
+#joinDiscordOuter{
+    width: 90em;
+    height: 10em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-image: url(../İmg/DcArkaPlan5.jpg); 
+    image-rendering: pixelated;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#joinDiscordInner{
+    width: 10em;
+    height: 3em;
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    right: 45%;
+    left: 45%;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #ff00b3 0%, #b006ff 74%);  
+    border-radius: 15em;
+    position: relative;
+}
+
+#joinDiscordInner:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 1px 25px rgb(255, 0, 242);
+}
+
+#joinDiscordInner a{
+    position: absolute;
+    top: 28%;
+    left: 23%;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+
+}
+
+#joinDiscordInner:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(247, 0, 255);
+}

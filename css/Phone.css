@@ -1,0 +1,68 @@
+@media(max-width: 600px)
+{
+  #FirstImg , #otherimg{
+    display: none;
+  }
+  .AboutUs img{
+    display: none;
+  }
+  #BestMeme{
+    margin-top: 4em;
+  }
+  #sectionSecond{
+    margin-right: 0;
+  }
+  #joinDiscordInner{
+    left: 35%;
+  }
+
+  #team{
+    height: 105em;
+  }
+  #BestMeme{
+    height: 30em;
+    width: 65%;
+    overflow-x: hidden;
+  }
+
+  
+  .Meme img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 20em;
+  }
+  .Meme img:hover{
+    transform: scale(1);
+  }
+  #marquee img{
+    transform: translateY(10em) scale(3.5);
+  }
+
+  #Questions{
+    height: 40em;
+    border-left: 0 solid rgb(255, 255, 255);
+  }
+  #footer-image{
+    display: none;
+  }
+  #icons{
+    display: none;
+
+  }
+  #FAQ{
+    min-height: 50em;
+  }
+  .Question{
+    margin-left: 0;
+  }
+  .Question button{
+    width: 100%;
+  }
+  .Question button h3{
+    text-align: left;
+  }
+  #Btn1{
+    margin-top: 7em;
+  }
+}

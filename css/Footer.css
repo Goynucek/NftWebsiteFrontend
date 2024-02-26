@@ -1,0 +1,51 @@
+footer{
+    width: 100%;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    height: 10em;
+    display: flex;
+}
+
+#footer-image{
+    width: 3em;
+    height: 3em;
+    background-color: aquamarine;
+    border-radius: 100%;
+    margin: auto;
+}
+
+#footer-image img{
+    width: 3em;
+    height: 3em;
+}
+
+#icons{
+    width: 10em;
+    height: 3em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+
+.icon a{
+    color: rgb(255, 255, 255);
+    width: 120%;
+    height: 120%;
+}
+
+#name{
+    font-size: 1.25em;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+#openseaicon{
+    font-size: 1em;
+    color: white;
+}

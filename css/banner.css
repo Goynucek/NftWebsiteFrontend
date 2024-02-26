@@ -1,0 +1,138 @@
+#home{
+    height: 40em;
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #20bf55 0%, #7cffcb 90%);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0);
+    height: 4em;
+    padding-top: 1em;
+}
+
+header nav{
+    width: 40vw;
+    height: 4em;
+    margin: auto;
+    display: flex;
+    position: fixed;
+    top: 3em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#logo{
+    height: 4em;
+    width: 25em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#logoImage{
+    background-color: aquamarine;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 4em;
+    height: 4em;
+    margin: auto;
+}
+
+#logoImage a img{
+    width: 4em;
+    height: 4em;
+}
+
+#logoText{
+    width: 15em;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+
+#logoText h5{
+    color:  white;
+    text-align: center;
+    margin-left: 0.5em;
+    font-size: 1.5em;
+    cursor:pointer;
+}
+
+.container{
+    width: 75vw;
+    margin-top: 3em;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#MiddleImg{
+    width: 50em;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#FirstImg{
+    width: 10em;
+    height: 20em;
+    margin-top: 7em;
+}
+
+#FirstImg .boxImg{
+    width: 6em;
+    height: 6em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: white 0.25em solid;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+}
+
+#FirstImg .boxImg img{
+    width: 8em;
+    height: 8em;
+}
+
+#FirstImg .boxImg:hover{
+    transition: all 1s ease-in-out;
+    background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+}
+
+#AvocadoMainImg{
+    width: 30em;
+    margin-top: 3em;
+}
+
+#otherimg{
+    width: 10em;
+    height: 20em;
+    margin-top: 7em;
+}
+
+#otherimg .boxImg{
+    width: 6em;
+    height: 6em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: white 0.25em solid;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+}
+
+#otherimg .boxImg img{
+    width: 8em;
+    height: 8em;
+}
+
+#otherimg .boxImg:hover{
+    transition: all 1s ease-in-out;
+    background-color: #eb4511;
+background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+}

@@ -1,0 +1,16 @@
+
+#waiting{
+    height: 5em;
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#waiting p {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}

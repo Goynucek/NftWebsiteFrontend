@@ -1,0 +1,117 @@
+#team{
+    width: 80vw;
+    height: 65em;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#teamText{
+    color: white;
+    text-shadow: black 1px 1px 10px;
+    margin-top: 1em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.whoWeAre{
+    width: 80vw;
+    height: 20em;
+    margin: auto;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.SocialMedia{
+    width: 20em;
+    height: 5em;
+    display: flex;
+}
+
+.SocialMedia button{
+    width: 5em;
+    height: 5em;
+}
+
+.whoIam{
+    width: 15em;
+    height: 20em;
+    border-radius: 3em;
+    background-color: rgba(255, 99, 71, 0.247);
+    margin: 1em 5em;
+    display: flex;
+    flex-direction: column;
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.25s;
+}
+
+.whoIam:hover{
+    transform: rotateY(20deg);
+}
+
+.ppOuter{
+    overflow: hidden;
+    border-radius: 15em;
+    width: 15em;
+    height: 15em;
+    bottom: 3em;
+    position: relative;
+}
+
+.whoIam:hover > .ppOuter .pp{
+    transform: translateY(-1em);
+    transition: All 0.25s;  
+}
+
+.whoIam:hover > .ppOuter .pp img{
+    transform: scale(1.1);
+    transition: All 0.25s;  
+}
+
+.whoIam .pp{
+    top: 3em;
+    left: 1em;
+    position: absolute;
+    width: 13em;
+    height: 13em;
+    border-radius: 100%;
+    background-color: #6a93cb;
+    background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.whoIam .pp img{
+    width: 20em;
+    height: 20em;
+}
+
+.Bio{
+    border-top: white 0.125em solid;
+    margin: auto;
+    position: relative;
+    bottom: 2em;
+    width: 80%;
+    height: 5em;
+}
+
+.Bio h5{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0.25em;
+    text-shadow: 1px 1px 1px wheat ;
+}
+
+.Bio p{
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-size: 0.75em;
+    margin-top: 0.25em;
+}

@@ -1,0 +1,66 @@
+@media(max-width: 1400px) {
+    #bodyInner{
+        overflow-x: hidden;
+      }
+
+    .AboutUs {
+      width: auto;
+    }
+
+    #secondimg{
+      margin-right: 8em;
+      margin-left: 0;
+    }
+
+    #joinDiscord {
+      width: 80%;
+    }
+
+    #joinDiscordOuter {
+      width: auto;
+    }
+    
+    #team{
+      height: 105em;
+    }
+    .whoWeAre {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .whoIam {
+      width: 13em;
+      height: 15em;
+    }
+
+    .ppOuter {
+      right: 2em;
+    }
+
+    .ppOuter .pp {
+      left: 2em;
+    }
+    #BestMeme{
+      overflow-x: scroll;
+      height: 40em;
+    }
+
+    .Meme img {
+      width: 12em;
+      height: 12em;
+    }
+    .Meme img:hover{
+      transform: scale(1);
+    }
+    #marquee img{
+      transform: translateY(4em) scale(1.5);
+    }
+    #Questions {
+      overflow-y: scroll;
+      border-left: 0 solid rgb(255, 255, 255);
+      height:40em;
+    }
+    .Question button{
+      width: 100%;
+    }
+}

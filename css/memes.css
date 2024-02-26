@@ -1,0 +1,51 @@
+
+
+#BestMeme{
+    width: 80%;
+    height: 25em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    box-shadow: 10px 10px 50px black;
+}
+
+#BestMeme h5{
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+}
+
+#memes{
+    margin-top: 2em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Meme img{
+    width: 5em;
+    height: 5em;
+    transition: all 1s;
+}
+
+
+.Meme img:hover{
+    transform: scale(1.25);
+}
+
+#MemeButton{
+    margin: auto;
+    width: 10em;
+    height: 4em;
+    background-color: coral;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    color: whitesmoke;
+    border-radius: 5em;
+}
+
